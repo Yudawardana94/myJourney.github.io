@@ -5,10 +5,10 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.65)), url(../myJourney.github.io/pic/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.65)), url(../myJourney.github.io/pic/tebing.jpg);
     background-size: cover;
     background-position: center;
-    height: 740px;
+    height: 640px;
     width: auto;
     background-repeat: no-repeat;
 }
@@ -27,21 +27,21 @@ body{
    
 }
 
-ul{
+.navbar ul{
     float: right;    
     margin-right: 10px;
     list-style-type: none;
     font-weight: 400;
 }
-ul li{
+.navbar ul li{
     display: inline-block;
 }
 
-ul li a{
+.navbar ul li a{
     padding: 0px 15px;
 }
 
-ul li a:hover{
+.navbar ul li a:hover{
     background-color: #eaeaea;
     color: #232323;
     opacity: 0.7;
@@ -99,7 +99,7 @@ ul li a:hover{
     transition-delay: 4ms;
 }
 
-.footer{
+.homefooter{
     /* background-color: aqua; */
     text-align: center;
     opacity: 0.7;
@@ -107,4 +107,43 @@ ul li a:hover{
     bottom: 1%;
     left: 40%;
     color: #eaeaea;
+}
+
+/* about */
+.navabout{
+    background-color: #282828;
+    padding: 15px 20px;
+
+}
+.navabout a{
+    /* background-color: #282828; */
+    text-decoration: none;
+    color: #eaeaea;
+    padding-top: 10px;
+}
+
+.navabout ul{
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    font-weight: 400;
+
+}
+
+.navabout ul li{
+    display: inline-block;
+}
+
+.navabout ul li a{
+    padding: 2px 15px;
+    font-size: 17px;
+}
+
+.navabout ul li a:hover{
+    background-color: #eaeaea;
+    color: #282828;
+    opacity: 0.6;
+    transition: 0.4s ease;
+    transition-delay: 4ms;
+    
 }
