@@ -1,37 +1,110 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* menu navigasi */
-.navbar {
-    background-image: url(../website-pribadi/pic/2.jpg);
-    height: 100vh;
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.65)), url(../myJourney.github.io/pic/2.jpg);
     background-size: cover;
     background-position: center;
+    height: 740px;
+    width: auto;
+    background-repeat: no-repeat;
 }
 
-ul {
-    list-style-type: none;
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
-    }
+/* *****navigation bar***** */
+.navbar a {
+   text-decoration: none; 
+   color: #eaeaea;
+   margin-top: 10px;
+   float: left;
+   font-size: 20px;
+}
 
+#logo {
+    margin-left: 10px;
+   
+}
+
+ul{
+    float: right;    
+    margin-right: 10px;
+    list-style-type: none;
+    font-weight: 400;
+}
 ul li{
     display: inline-block;
-    }
+}
 
 ul li a{
-    padding: 5px 20px;
-    color: black;
-    text-decoration: none;
-    /* border: 1px solid white; */
+    padding: 0px 15px;
 }
 
 ul li a:hover{
-    color: white;
+    background-color: #eaeaea;
+    color: #232323;
     opacity: 0.7;
     transition: 0.4s ease ;
     transition-delay: 4ms;
+}
+
+/* *****mid***** */
+.container {
+    width: 1000px;
+    /* height: 620px; */
+    margin: auto;
+    /* background: #232323 */
+}
+
+.container h1{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    /* background-color: aquamarine; */
+    text-align: right;
+    font-size: 70px;
+    color: #eaeaea;
+}
+
+.fr {
+    text-align: center;
+    margin: 0px 400px;
+    position: absolute;
+    top: 52%;
+    left: 9%;
+    color: #eaeaea;
+
+}
+.fr h4{
+    color: salmon;
+    display: inline-block;
+    color: #eaeaea;
+    padding: 2px 5px;
+    border: 1px solid #eaeaea;
+}
+
+.fr h4 a{
+    text-decoration: none;
+    padding: 3px 10px;
+    color: #eaeaea;
+    font-size: 20px;
+}
+
+.fr h4 a:hover{
+    /* background-color: #eaeaea; */
+    color: #eaeaea;
+    padding: 10px;
+    transition: 0.4s ease ;
+    transition-delay: 4ms;
+}
+
+.footer{
+    /* background-color: aqua; */
+    text-align: center;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 1%;
+    left: 40%;
+    color: #eaeaea;
 }
